@@ -12,8 +12,5 @@
     systemctl status jenkins
     systemctl enable jenkins
 
-sudo amazon-linux-extras install ansible2 -y",
-      sudo yum install git -y
-      git clone https://github.com/devops-school/ansible-hello-world-role /tmp/ans_ws
-      ansible-playbook /tmp/ans_ws/site.yaml
+
 
